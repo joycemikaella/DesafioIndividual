@@ -62,12 +62,20 @@ public class Jdbc {
 				}*/
 				
 		//Excluir um item por ID - Excluído o Sofá
-				CasaNova Item = dc.consultar(5);
+				/*CasaNova Item = dc.consultar(5);
 				System.out.println(Item);
 				dc.excluir(5);
 				Item = dc.consultar(5);
 				System.out.println(Item);
-					
+					*/
+		
+		
+		
+	CasaNova c7 = new CasaNova("Jogo de ferramentas","MOBÍLIA","UTILIDADES");
+
+		if(dc.salvar(c7)) {
+			System.out.println("Item adicionado com sucesso");
+		}
 						
 	}
 
