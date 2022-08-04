@@ -67,13 +67,18 @@ public class Jdbc {
 				dc.excluir(5);
 				Item = dc.consultar(5);
 				System.out.println(Item);
-					*/
-		
+					
 		
 		
 	CasaNova c7 = new CasaNova("Jogo de ferramentas","MOBÍLIA","UTILIDADES");
 
 		if(dc.salvar(c7)) {
+			System.out.println("Item adicionado com sucesso");
+		}
+		*/
+	CasaNova c8 = new CasaNova("Air Fryer","MOBÍLIA","ELETRODOMÉSTICOS");
+
+		if(dc.salvar(c8)) {
 			System.out.println("Item adicionado com sucesso");
 		}
 						
