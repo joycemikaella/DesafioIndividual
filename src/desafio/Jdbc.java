@@ -69,7 +69,7 @@ public class Jdbc {
 				System.out.println(Item);
 					
 		
-		
+		//ADIÇÃO DE MAIS ITENS
 	CasaNova c7 = new CasaNova("Jogo de ferramentas","MOBÍLIA","UTILIDADES");
 
 		if(dc.salvar(c7)) {
